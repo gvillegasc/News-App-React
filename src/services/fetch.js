@@ -1,4 +1,4 @@
-const baseUrl = 'http://newsapi.org/v2/top-headlines';
+const baseUrl = 'https://newsapi.org/v2/top-headlines';
 const apiKey = '431a2b39236d43baaafbf67530faa12d';
 
 export const fetchGet = (category = '') => {
