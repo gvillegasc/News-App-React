@@ -5,7 +5,7 @@ export const NotFound = () => {
 		<div class="tile is-parent">
 			<article class="tile is-child notification is-danger">
 				<p class="title">News not founds</p>
-				<p class="subtitle">Search with others words</p>
+				<p class="subtitle">Search with other word</p>
 			</article>
 		</div>
 	);
