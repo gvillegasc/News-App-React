@@ -1,0 +1,22 @@
+.btn {
+    &:hover {
+        cursor: pointer;
+        color: grey !important;
+    }
+}
+
+.title-app {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.card {
+    height: max-content;
+}
+
+.container-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.5em;
+}
