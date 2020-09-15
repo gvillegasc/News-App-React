@@ -5,8 +5,9 @@ export const fetchGet = (category = '') => {
 	var url = '';
 	if (category === '') {
 		url = `${baseUrl}?apiKey=${apiKey}&country=us`;
+	} else {
+		url = `${baseUrl}?apiKey=${apiKey}&country=us&category=${category}`;
 	}
-	url = `${baseUrl}?apiKey=${apiKey}&country=us&category=${category}`;
 	return fetch(url);
 };
 
