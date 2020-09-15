@@ -1,5 +1,5 @@
-const baseUrl = process.env.REACT_APP_NEWS_URL;
-const apiKey = process.env.REACT_APP_API_KEY;
+const baseUrl = 'http://newsapi.org/v2/top-headlines';
+const apiKey = '431a2b39236d43baaafbf67530faa12d';
 
 export const fetchGet = (category = '') => {
 	var url = '';
